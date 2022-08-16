@@ -1,0 +1,108 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.background-1 {
+  position: absolute;
+  right: 0;
+  height: 235px;
+  top: 430px;
+}
+
+.top-nav {
+  display: flex;
+  background: #3c3a39;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.link-name {
+  color: white;
+  text-decoration: none;
+  margin-left: 24px;
+  margin-top: 20px;
+  height: 24px;
+  font-size: large;
+  font-style: normal;
+  font-family: 'Roboto', sans-serif;
+}
+
+.hamburger .bar {
+  display: block;
+  width: 30px;
+  height: 5px;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 24px;
+  border-radius: 10px;
+}
+
+.intro {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  flex-direction: column;
+  background-color: black;
+  height: 600px;
+  align-items: flex-start;
+}
+
+#greeting {
+  color: #ff6b00;
+  position: relative;
+  left: 24px;
+  top: 90px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+
+#intro-name {
+  color: #ff6b00;
+  position: relative;
+  left: 24px;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  letter-spacing: 0.36px;
+}
+
+#intro-title {
+  color: white;
+  position: relative;
+  left: 28px;
+  top: -50px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+}
+
+#intro-description {
+  color: white;
+  text-align: start;
+  position: relative;
+  left: 28px;
+  top: -60px;
+  font-family: 'poppins', sans-serif;
+}
+
+#icon-list {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: -70px;
+}
+
+.intro-icon {
+  display: flex;
+  position: relative;
+  left: -20px;
+  margin-left: 20px;
+}
