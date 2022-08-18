@@ -41,27 +41,12 @@ VSCode and gitbash
 ### Run tests
 linters on github
 
-
-
-
-## Authors
+## Author
 
 👤 **Shuhad Loofer**
 
 - GitHub: [@Shuhad786](https://github.com/Shuhad786) 
 - LinkedIn: [shuhad-loofer](www.linkedin.com/in/shuhad-loofer)
-
-## 🤝 Contributing
-
-I would like to thank my team and stand up team for any and all assistance
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-I learnt alot about the project and basics that were new to me
 
 ## 📝 License
 
