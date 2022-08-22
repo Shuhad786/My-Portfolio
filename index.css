@@ -338,6 +338,7 @@ html body {
   flex-direction: column;
   background-color: #1c1a19;
   height: 1700px;
+  margin-top: 120px;
 }
 
 .about-title {
@@ -458,4 +459,108 @@ html body {
   position: absolute;
   right: 0;
   top: 4480px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+}
+
+.contact-form-description {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 73px;
+}
+
+.first-name-label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #dbd8d7;
+  margin-left: 40px;
+}
+
+.form-input {
+  border: none;
+  border-bottom: 2px solid #dbd8d7;
+  margin-bottom: 50px;
+  width: 327px;
+  margin-left: 24px;
+}
+
+.email-label {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  color: #dbd8d7;
+  margin-left: 40px;
+}
+
+.form-textbox {
+  background-color: whitesmoke;
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  width: 327px;
+  height: 90px;
+  padding: 12px;
+  margin-left: 12px;
+  border: none;
+}
+
+.form-button {
+  display: flex;
+  align-items: center;
+  width: 90px;
+  padding: 10px;
+  margin-left: 142.5px;
+  margin-top: 24px;
+  background-color: #ff6b00;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+.contact-divider {
+  border: #dbd8d7 solid 1px;
+  margin-top: 124px;
+  margin-bottom: 25px;
+}
+
+.contact-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  gap: 21px;
+}
+
+.contact-item {
+  display: flex;
+  width: 20px;
+  height: 20px;
+}
+
+.end-divider {
+  width: 140px;
+  background-color: black;
+  border: black solid 4px;
+  border-radius: 5px;
+  margin-left: 117.5px;
+  margin-top: 23px;
 }
