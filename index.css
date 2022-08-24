@@ -37,6 +37,13 @@
     font-family: 'Roboto', sans-serif;
   }
 
+  .link-name:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
   .hamburger .bar {
     display: block;
     width: 30px;
@@ -233,6 +240,11 @@
     border: none;
   }
 
+  .work-button:hover {
+    color: #f55800;
+    background: #fff5e1;
+  }
+
   .project-1 {
     display: grid;
     margin-top: 30px;
@@ -336,6 +348,11 @@
     border: none;
   }
 
+  .project-button:hover {
+    color: #f55800;
+    background: #fff5e1;
+  }
+
   .About-section {
     display: flex;
     flex-direction: column;
@@ -380,6 +397,11 @@
     font-size: 17px;
     border: none;
     border-radius: 5px;
+  }
+
+  .about-button:hover {
+    color: #f55800;
+    background: #fff5e1;
   }
 
   .about-divider {
@@ -520,6 +542,11 @@
     border: none;
     border-radius: 5px;
     color: white;
+  }
+
+  .form-button:hover {
+    color: #f55800;
+    background: #fff5e1;
   }
 
   .contact-divider {
@@ -767,6 +794,13 @@
     font-family: 'Inter', sans-serif;
   }
 
+  .link-name:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
   .hamburger .bar {
     display: none;
   }
@@ -792,6 +826,13 @@
     font-size: 15px;
   }
 
+  .nav-link:hover {
+    color: #f55800;
+    background: #fff5e1;
+    border-radius: 5px;
+    padding: 5px;
+  }
+
   .nav-img {
     display: flex;
     margin-right: 150px;
@@ -802,8 +843,8 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 500px;
-    height: 768px;
+    width: 45%;
+    height: 120%;
   }
 
   .intro {
@@ -866,13 +907,21 @@
   }
 
   .icon-list {
-    display: block;
+    display: flex;
+    flex-direction: column;
     list-style: none;
     margin-top: -320px;
+    justify-content: center;
+    margin-left: 40px;
+  }
+
+  .icon-link {
+    text-decoration: none;
+    list-style: none;
   }
 
   .intro-icon {
-    margin-left: 36px;
+    margin-left: 0;
     margin-bottom: 20px;
   }
 
@@ -1010,24 +1059,59 @@
     border: none;
   }
 
+  .work-button:hover {
+    background: #fff5e1;
+    color: #f55800;
+  }
+
   .desktop-project-grid {
     display: grid;
     margin-top: 80px;
-    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 894px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    gap: 24px;
+    justify-content: center;
+  }
+
+  .desktop-project-button {
+    display: flex;
+    opacity: 0;
+    margin-top: -70px;
+  }
+
+  .desktop-project-button:hover {
+    display: flex;
+    height: 50px;
+    width: 370px;
+    margin-top: -53px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    color: #f55800;
+    background: #fff5e1;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    opacity: 1;
   }
 
   .desktop-project-1 {
     display: grid;
     margin-top: 30px;
-    margin-left: 90px;
     grid-template-rows: 377px 58px;
+    width: 370px;
+    height: 435px;
   }
 
   .desktop-project-2 {
     display: grid;
     margin-top: 30px;
-    margin-left: 26px;
     grid-template-rows: 377px 58px;
+    width: 370px;
+    height: 435px;
   }
 
   .desktop-project-title-2 {
@@ -1052,7 +1136,8 @@
   .desktop-project-3 {
     display: grid;
     margin-top: 30px;
-    margin-right: 90px;
+    width: 370px;
+    height: 435px;
     grid-template-rows: 377px 58px;
   }
 
@@ -1079,8 +1164,9 @@
   .desktop-project-4 {
     display: grid;
     margin-top: 26px;
-    margin-left: 90px;
     grid-template-rows: 377px 58px;
+    width: 370px;
+    height: 435px;
   }
 
   .desktop-project-title-4 {
@@ -1106,8 +1192,9 @@
   .desktop-project-5 {
     display: grid;
     margin-top: 26px;
-    margin-left: 26px;
     grid-template-rows: 377px 58px;
+    width: 370px;
+    height: 435px;
   }
 
   .desktop-project-title-5 {
@@ -1133,8 +1220,9 @@
   .desktop-project-6 {
     display: grid;
     margin-top: 26px;
-    margin-right: 90px;
     grid-template-rows: 377px 58px;
+    width: 370px;
+    height: 435px;
   }
 
   .desktop-project-title-6 {
@@ -1235,6 +1323,11 @@
     border: none;
   }
 
+  .project-button:hover {
+    color: #f55800;
+    background: #fff5e1;
+  }
+
   .About-section {
     display: flex;
     flex-direction: column;
@@ -1285,6 +1378,11 @@
     font-size: 17px;
     border: none;
     border-radius: 5px;
+  }
+
+  .about-button:hover {
+    color: #f55800;
+    background: #fff5e1;
   }
 
   .about-divider {
@@ -1496,7 +1594,7 @@
   .desktop-form-button {
     display: flex;
     align-items: center;
-    width: 90px;
+    width: fit-content;
     padding: 10px;
     margin-left: 0;
     margin-top: 24px;
@@ -1504,6 +1602,15 @@
     border: none;
     border-radius: 5px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+  }
+
+  .desktop-form-button:hover {
+    color: #f55800;
+    background: #fff5e1;
   }
 
   .form {
@@ -1533,13 +1640,13 @@
     list-style: none;
     padding: 0;
     justify-content: center;
-    gap: 21px;
   }
 
-  .contact-item {
+  .contact-icon {
     display: flex;
     width: 20px;
     height: 20px;
+    margin: 20px;
   }
 
   .end-divider {
