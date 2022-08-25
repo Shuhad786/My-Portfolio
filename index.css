@@ -72,6 +72,12 @@
     font-size: 56px;
     font-weight: 400;
     letter-spacing: 0.36px;
+    transition: font-size 3s;
+  }
+
+  .greeting:hover {
+    font-size: 70px;
+    color: #dbd8d7;
   }
 
   .intro-name {
@@ -82,6 +88,12 @@
     font-size: 56px;
     font-weight: 400;
     letter-spacing: 0.36px;
+    transition: font-size 3s;
+  }
+
+  .intro-name:hover {
+    font-size: 70px;
+    color: #dbd8d7;
   }
 
   .intro-title {
@@ -91,6 +103,12 @@
     top: -50px;
     font-family: 'Roboto', sans-serif;
     font-size: 24px;
+    transition: font-size 3s;
+  }
+
+  .intro-title:hover {
+    font-size: 50px;
+    color: #dbd8d7;
   }
 
   .intro-description {
@@ -129,6 +147,12 @@
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
+    transition: font-size 3s;
+  }
+
+  .work-heading:hover {
+    font-size: 100px;
+    color: #f55800;
   }
 
   .work-divider {
@@ -865,6 +889,12 @@
     font-size: 72px;
     font-weight: 400;
     letter-spacing: 0.36px;
+    transition: font-size 3s;
+  }
+
+  .greeting:hover {
+    font-size: 100px;
+    color: #dbd8d7;
   }
 
   .intro-name {
@@ -876,6 +906,12 @@
     font-size: 72px;
     font-weight: 400;
     letter-spacing: 0.36px;
+    transition: font-size 3s;
+  }
+
+  .intro-name:hover {
+    font-size: 100px;
+    color: #dbd8d7;
   }
 
   .intro-title {
@@ -887,6 +923,12 @@
     font-size: 32px;
     font-weight: 500;
     font-style: normal;
+    transition: font-size 3s;
+  }
+
+  .intro-title:hover {
+    font-size: 70px;
+    color: #f55800;
   }
 
   .intro-description {
